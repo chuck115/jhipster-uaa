@@ -1,0 +1,2 @@
+# jhipster-uaa
+taste uaa
