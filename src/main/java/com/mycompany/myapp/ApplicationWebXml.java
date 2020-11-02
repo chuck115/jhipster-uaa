@@ -8,6 +8,8 @@ import org.springframework.boot.web.servlet.support.SpringBootServletInitializer
 /**
  * This is a helper Java class that provides an alternative to creating a {@code web.xml}.
  * This will be invoked only when the application is deployed to a Servlet container like Tomcat, JBoss etc.
+ *
+ * 以war包发布的时候会被调用到 by shayne
  */
 public class ApplicationWebXml extends SpringBootServletInitializer {
 

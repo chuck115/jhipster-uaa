@@ -114,6 +114,7 @@ public class UaaConfiguration extends AuthorizationServerConfigurerAdapter imple
         this.passwordEncoder = passwordEncoder;
     }
 
+    // 定义它的client和属性 by shayne
     @Override
     public void configure(ClientDetailsServiceConfigurer clients) throws Exception {
         int accessTokenValidity = uaaProperties.getWebClientConfiguration().getAccessTokenValidityInSeconds();
